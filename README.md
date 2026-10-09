@@ -2,11 +2,7 @@
 
 > Solución definitiva para el error "No tiene permisos" / "Acceso denegado" en carpetas después de reinstalar Windows.
 
-**Sygmatch Folder Repair** es una herramienta gráfica portable para Windows 10/11 que repara de forma segura carpetas bloqueadas por SID huérfanos, propietarios antiguos, herencia rota y restos del virus de acceso directo en USB. Versión compilada lista para usar, sin necesidad de PowerShell.
-
-[[Windows](https://img.shields.io/badge/Windows-10%2F11-0078D6?style=flat-square&logo=windows)](https://github.com/Sygmatch)
-[[PowerShell](https://img.shields.io/badge/PowerShell-5.1-5391FE?style=flat-square&logo=powershell)](https://github.com/Sygmatch)
-[[License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+**Sygmatch Folder Repair** es una herramienta gráfica portable para Windows 10/11 que repara de forma segura carpetas bloqueadas por SID huérfanos, propietarios antiguos, herencia rota y restos del virus de acceso directo en USB. 
 
 ---
 
@@ -92,18 +88,10 @@ Todos los datos se guardan de forma segura en tu carpeta local, no en la carpeta
 ├── Logs\           -> Log diario: 20250101.log
 └── settings.json   -> Guarda tu preferencia de tema (dark/light)
 ```
-Ruta completa real: `C:\Users\TuUsuario\AppData\Local\Sygmatch`
+Ruta completa real: `C:\Users\TuUsuario\AppData\Local\Sygmatch\Folder Repair`
 
-Para abrirla rápido: presiona `Win + R`, escribe `%LOCALAPPDATA%\Sygmatch` y Enter.
+Para abrirla rápido: presiona `Win + R`, escribe `%LOCALAPPDATA%\Sygmatch\Folder Repair` y Enter.
 
-## 🔧 Compilación
-
-El .exe fue compilado desde `Sygmatch_Folder_Repair.ps1` con PS2EXE / Win-PS2EXE para garantizar compatibilidad con Windows PowerShell 5.1 en modo STA y con icono y manifiesto de administrador.
-
-Si quieres compilarlo tú mismo:
-```powershell
-Invoke-PS2EXE -InputFile .\Sygmatch_Folder_Repair.ps1 -OutputFile "Sygmatch_Folder_Repair V4.0.exe" -STA -NoConsole -RequireAdmin -IconFile icon.ico -Title "Sygmatch Folder Repair"
-```
 
 ## ⚖️ Licencia y Autor
 
