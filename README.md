@@ -55,12 +55,10 @@ Esta herramienta está diseñada para no romper Windows:
 
 ### ▶️ Uso
 
-1. Clic derecho sobre `Sygmatch_Folder_Repair.ps1` > **Ejecutar con PowerShell**
+1. Clic sobre `Sygmatch_Folder_Repair V4.0.exe` 
 2. Acepta el UAC
 3. Selecciona la carpeta bloqueada
 4. Empieza siempre por **Diagnóstico**
 5. Luego ejecuta **Reparación Completa**
-
-> Puedes pasar la ruta por parámetro: `.\Sygmatch_Folder_Repair.ps1 -Path "D:\MiCarpeta Bloqueada"`
 
 ### 📁 Estructura de archivos
